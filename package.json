@@ -1,0 +1,22 @@
+{
+  "name": "nodegui-tuto-reddit-feed",
+  "version": "1.0.0",
+  "description": "A simple Reddit feed reader with NodeGUI",
+  "main": "scr/index.js",
+  "scripts": {
+    "test": "qode src/index.js",
+    "start": "qode src/index.js"
+  },
+  "keywords": [
+    "reddit",
+    "reddit-feed",
+    "nodegui"
+  ],
+  "author": "Alfonso Saavedra \"Son Link\"",
+  "license": "MIT",
+  "dependencies": {
+    "@nodegui/nodegui": "^0.19.0",
+    "rss-parser": "^3.7.6"
+  },
+  "devDependencies": {}
+}
