@@ -1,11 +1,11 @@
 {
-  "name": "nodegui-tuto-reddit-feed",
+  "name": "my-webpack-project",
   "version": "1.0.0",
-  "description": "A simple Reddit feed reader with NodeGUI",
-  "main": "scr/index.js",
+  "description": "My webpack project",
+  "main": "src/index.js",
   "scripts": {
-    "test": "qode src/index.js",
-    "start": "qode src/index.js"
+    "start": "qode ./src/index.js",
+    "test": "qode --inspect ./src/index.js"
   },
   "keywords": [
     "reddit",
@@ -15,8 +15,8 @@
   "author": "Alfonso Saavedra \"Son Link\"",
   "license": "MIT",
   "dependencies": {
-    "@nodegui/nodegui": "^0.19.0",
+    "@nodegui/nodegui": "^0.57.1",
+    "@nodegui/qode": "^16.4.3",
     "rss-parser": "^3.7.6"
-  },
-  "devDependencies": {}
+  }
 }
